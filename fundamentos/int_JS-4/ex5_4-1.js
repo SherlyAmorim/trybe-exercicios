@@ -30,3 +30,19 @@ else if (x < 0 || y < 0 || z < 0){
 else{
     console.log('Não é um triângulo.');
 }
+
+
+// const num1 = 10;
+// const num2 = 20;
+// const num3 = 30;
+// const somaAngulos180 = true;
+
+// if (num1 + num2 + num3 == 180){
+//     console.log(somaAngulos180);
+// } else if(num1 < 0 || num2 < 0 || num3 < 0){
+//     console.log('Ângulo inválido');
+// }else {
+//     console.log(!somaAngulos180);
+// }
+
+// console.log('---------------------------')
