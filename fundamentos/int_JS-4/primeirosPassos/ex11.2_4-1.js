@@ -38,4 +38,4 @@ else{
         netSalary = (baseSalary - ((baseSalary*0.275)- 869.36));
     }
 }
-console.log(netSalary);
+console.log('Salário Líquido = R$ ' + netSalary.toFixed(2));
