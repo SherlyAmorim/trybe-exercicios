@@ -11,4 +11,15 @@ let media = soma / numbers.length
 console.log('Média do Array é: ' + media);
 
 
+console.log('-------------------------');
+console.log('----- Usando For/Of -----');
+console.log('-------------------------');
 
+let sum = 0;
+
+for (let valores of numbers){
+    sum += valores;
+}
+let average = sum / numbers.length
+
+console.log('Média do Array é: ' + average);
