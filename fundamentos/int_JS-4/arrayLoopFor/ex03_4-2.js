@@ -11,3 +11,4 @@ let media = soma / numbers.length
 console.log('Média do Array é: ' + media);
 
 
+

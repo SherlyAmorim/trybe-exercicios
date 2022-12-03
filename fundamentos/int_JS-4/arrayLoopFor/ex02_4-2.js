@@ -5,3 +5,14 @@ for(let index = 0; index < numbers.length; index += 1){
     result += numbers[index];
 }
 console.log(result);
+
+console.log('-------------------------');
+console.log('----- Usando For/Of -----');
+console.log('-------------------------');
+
+let sum = 0;
+
+for (let valores of numbers){
+    sum += valores;
+}
+console.log(sum);
