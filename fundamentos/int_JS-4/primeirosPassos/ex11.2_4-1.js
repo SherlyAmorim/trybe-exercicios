@@ -1,5 +1,6 @@
-const grossSalary = 5500.00;
+const grossSalary = 3000.00;
 let netSalary;
+let baseSalary;
 
 if (grossSalary <= 1556.94){
     baseSalary = (grossSalary - (grossSalary*0.08));
