@@ -1,0 +1,54 @@
+MÉTODOS
+
+SPLIT()
+
+split(): manipula strings, uma de suas finções é tranformar uma string em um array.
+ex:
+
+const str = 'Sherly Pinheiro de Amorim';
+
+const words = str.split(' ');
+console.log(words[3]);
+// expected output: "Amorim"
+
+const chars = str.split('');
+console.log(chars[8]);
+// expected output: "i"
+
+const strCopy = str.split();
+console.log(strCopy);
+// expected output: Array ["Sherly Pinheiro de Amorim"]
+
+
+JOIN()
+
+join(): manipula arrays, pega os elementos do array e imprime com os separadores que o join() indicar.
+ex: 
+
+const elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join());
+//  "Fire,Air,Water"
+
+console.log(elements.join(''));
+//  "FireAirWater"
+
+console.log(elements.join('-'));
+//  "Fire-Air-Water"
+
+console.log(elements.join(' '));
+//  "Fire Air Water"
+
+
+REVERSE()
+
+reverse(): manipula arrays, inverte os elementos de uma matriz.
+
+ex:
+
+const items = [1, 2, 3];
+console.log(items); // [1, 2, 3]
+
+items.reverse();
+console.log(items); // [3, 2, 1]
+
