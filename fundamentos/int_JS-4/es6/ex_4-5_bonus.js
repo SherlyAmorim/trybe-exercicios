@@ -19,4 +19,19 @@ const substituaX = (nome) => {
         }
     return newFrase.join(' '); // .join transforma array em string.
 }
-console.log(substituaX('Maria'));
+// console.log(substituaX('Maria'));
+
+// Escreva uma função que irá receber o retorno da Função 1 por parâmetro e retornará uma nova string.
+
+const minhasSkills = (remake) => {
+    const skills = ['JS', 'HTML', 'CSS'];
+    let result = `
+    ${remake} 
+    Minhas três principais habilidades são:`;
+    for (let skill of skills){
+        result = `${result}
+        * ${skill}`;
+    }    
+    return result;
+}
+console.log(minhasSkills(substituaX('Maria')));
