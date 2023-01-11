@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        #cabecalho{
+            color: gray;
+        }
+
+        form{
+            border: 1px solid black;
+            padding: 2%;
+        }
+
+        .elements{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="cabecalho">Preencha o Formulário abaixo para participar!</h1>
+    </header>
+    <form action="" method="get">
+        <label for="input-fullName">*Nome:
+            <input type="text" id="input-fullName" name="fullName" class="elements" placeholder="Digite seu nome completo..." minlength="10" maxlength="40" required>
+        </label>
+        <br>
+        <label for="input-email">*E-mail:
+            <input type="email" id="input-email" name="email" class="elements" placeholder="Digite seu melhor e-mail..." minlength="10" maxlength="50" required>
+        </label>
+        <br>
+        <br>
+        <strong>*Destino Preferido:</strong>        
+        <label for="input-destino1">
+            <input type="radio" id="input-destino1"   name="destinos" class="elements" value="cidade" checked>Cidade
+        </label>
+        <label for="input-destino2">
+            <input type="radio" id="input-destino2" name="destinos" class="elements" value="campo">Campo
+        </label>
+        <label for="input-destino3">
+            <input type="radio" id="input-destino3" name="destinos" class="elements" value="praia">Praia
+        </label>
+        <label for="input-destino4">
+            <input type="radio" id="input-destino4" name="destinos" class="elements" value="montanha">Montanha
+        </label>
+        <br>
+        <h3>Descreva por que você deveria ser a pessoa <br>desenvolvedora a ganhar o concurso TrybeTrip?</h3>
+        <label for="input-mensagem">            
+            <textarea name="mensagem" id="input-mensagem" maxlength="500" cols="50" rows="10"></textarea>
+        </label>
+        <h3>Qual a melhor data para realizar sua viagem?</h3>
+        <label for="input-data"> <strong>Data:</strong>           
+            <input type="date" name="data" id="input-data">
+        </label>
+        <br>
+        <label for="input-oportunidade">
+            <input type="checkbox" name="oportunidade" id="input-oportunidade" class="elements">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+        </label>
+        <br>
+        <label for="input-divulgacao">
+            <input type="checkbox" name="divulgacao" id="input-divulgacao" class="elements">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+        </label>
+    </form>    
+</body>
+</html>
