@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Validador de Campos</h1>
+        <form action="" method="get">
+            <label for="input-data">
+                <input type="text" name="texto" class="inputs" id="input-data" placeholder="Insira aqui o valor">
+            </label>
+            <select name="select-type" class="inputs" id="dropdown-data" >
+                <option value="cpf">CPF</option>
+                <option value="email">e-mail</option>            
+            </select>
+            <button class="inputs">Validar</button>
+        </form>
+        <h3 id="instruction">Digite o valor, escolha a opção e clique em validar</h3>
+        <h3 id="true">A validação retornou true</h3>
+        <h3 id="false">A validação retornou false</h3>
+        </section>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
